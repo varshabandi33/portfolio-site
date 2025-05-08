@@ -3783,4 +3783,12 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
+        .subtitle-box {
+        background-color: rgba(255, 255, 255, 0.1); /* or any color you like */
+        padding: 0.5em 1em;
+        border-radius: 8px;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        display: inline-block; /* keeps it from stretching across the whole page */
+            }
 		}
