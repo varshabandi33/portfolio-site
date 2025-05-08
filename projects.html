@@ -31,12 +31,71 @@
             <header class="major">
                 <h2>Dolor Nullam</h2>
             </header>
-            <p>Details for the third project go here...</p>
+            <p>The focus of this project was to design and validate a 3D-printed
+                prosthetic foot made from PLA using Finite Element Analysis (FEA) simulation and introduced design
+                improvements to enhance its structural stiffness under realistic loading conditions. </p>
+            <ul>
+                <li>
+                    <strong>Material Properties of PLA:</strong>
+                    <ul>
+                        <li>Young’s Modulus: <strong>463.37 MPa</strong></li>
+                        <li>Yield Stress: <strong>16.8 MPa</strong></li>
+                        <li>Ultimate Stress: <strong>28.89 MPa</strong></li>
+                        <li>Density: <strong>1.25 g/cm³</strong></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Initial Validation of SolidWorks Simulation:</strong>
+                    <ul>
+                        <li>A <strong>190 N</strong> load  applied to ankle in both hand calculations and SolidWorks.</li>
+                        <li><strong>Hand-calculated displacement:</strong> 0.281 m</li>
+                        <li><strong>SolidWorks displacement:</strong> 0.0117 m</li>
+                        <li>Differences are due to simplified hand model assumptions (smaller moment of inertia).</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Trend Verification:</strong>
+                    <ul>
+                        <li>Both the hand calculations and SolidWorks results showed that <strong>displacement
+                            decreased as applied force decreased</strong>, confirming the model behaved as expected under applied load.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Improvement Results:</h3>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                <tr>
+                    <th> </th>
+                    <th>Original Model</th>
+                    <th>Improved Model</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><strong>Moment of Inertia</strong></td>
+                    <td>64 mm⁴</td>
+                    <td>85.92 mm⁴</td>
+                </tr>
+                <tr>
+                    <td><strong>Hand Calc Deflection @ 190N</strong></td>
+                    <td>0.281 m</td>
+                    <td>0.208 m</td>
+                </tr>
+                <tr>
+                    <td><strong>SolidWorks Deflection @ 190N</strong></td>
+                    <td>0.0122 m</td>
+                    <td>0.0117 m</td>
+                </tr>
+                </tbody>
+            </table>
+
         </section>
     </div>
 
     <footer id="footer">
-        <p>&copy; Varsha Bandi. Design adapted from HTML5 UP.</p>
+        <p>&copy; Varsha Bandi</p>
     </footer>
 </div>
 </body>
